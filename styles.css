@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    background-color: white;
+    width: 70%; 
+    height: 165px;
+    margin-top: 30px;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;  
+    border-radius: 8px;
+    box-shadow: 0px 20px 30px -20px hsl(229, 6%, 66%);
+}
+
+.a {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.b {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.c {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.d {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.block img {
+    width:60px;
+    align-self: flex-end;
+    margin-top:35px;
+}
+
+.block p {
+    font-size: 13px;
+    margin-top: 5px;
+    line-height: 1.3rem;
+}
+
+h3 {
+    color: hsl(234, 12%, 34%);  
+}
+
+.heroBox {
+    margin-top: 70px; 
+    width: 85%;
+    text-align: center;
+}
+
+h1 {
+    color: hsl(234, 12%, 34%);    
+    font-weight: 200;
+    font-size: 24px;
+}
+
+h2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.heroBox p {
+    margin: 20px 0 40px 0;
+}
+
+footer {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(229, 28%, 48%);
+}
